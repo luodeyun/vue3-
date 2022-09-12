@@ -1,17 +1,53 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <Ref></Ref> -->
+  <!-- <Reactive></Reactive> -->
+  <!-- <Computed /> -->
+  <!-- <Watch title="12334"></Watch> -->
+  <!-- <WatchEffect></WatchEffect> -->
+  <!-- <lifeCycle> </lifeCycle> -->
+  <!-- <shallowRefs></shallowRefs> -->
+  <!-- <readonly /> -->
+  <!-- <toraw /> -->
+  <!-- <Father /> -->
+  <!-- <Transitions /> -->
+  <!-- <TelePorts /> -->
+  <Suspenses />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import Ref from "./components/refTest.vue";
+// import Reactive from "./components/reactive.vue";
+// import Computed from "./components/computed.vue";
+// import Watch from "./components/watch.vue";
+// import WatchEffect from "./components/watchEffectTest.vue";
+// import lifeCycle from "./components/lifeCycle.vue";
+// import shallowRefs from "./components/shallowRefTest.vue";
+// import toRef from "./components/toRef.vue";
+// import readonly from "./components/readonly.vue";
+// import toraw from "./components/toraw.vue";
+// import Father from "./components/provide/fathers.vue";
+// import Transitions from "./components/transition.vue";
+// import TelePorts from "./components/telePort.vue";
+import Suspenses from "./components/suspense.vue";
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    // Ref,
+    // Reactive,
+    // Computed,
+    // Watch,
+    // WatchEffect,
+    // lifeCycle,
+    // toRef,
+    // shallowRefs,
+    // readonly,
+    // toraw,
+    // Father,
+    // Transitions,
+    // TelePorts,
+    Suspenses,
+  },
+  name: "App",
+};
 </script>
 
 <style>
